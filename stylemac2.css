@@ -1,0 +1,199 @@
+html {
+  background-color: teal;
+}
+
+.grid {
+  display: grid;
+  row-gap: 25px;
+  grid-template-rows: minmax(25px, 50px) minmax(1fr, 1fr) minmax(25px, 50px);
+  grid-template-columns:minmax(25px, 1fr) minmax(500px, 800px) minmax(25px, 1fr);
+}
+
+.gridbox1 {
+  grid-column: 2 / 3;
+  background-color: #c6c6c6;
+  padding: 1%;
+  padding-top: 1%;
+  margin-top: 2%;
+  border-left: 2px solid #f4f4f4;
+  border-top: 2px solid #f4f4f4;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+}
+.gridbox2 {
+  grid-column: 2 / 3;
+  background-color: #c6c6c6;
+  padding: 1%;
+  padding-top: 1%;
+  margin-top: 2%;
+  border-left: 2px solid #f4f4f4;
+  border-top: 2px solid #f4f4f4;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+  max-width: 1400px;
+}
+.gridbox3 {
+  grid-column: 2 / 3;
+  background-color: #c6c6c6;
+  padding: 1%;
+  padding-top: 1%;
+  margin-top: 2%;
+  border-left: 2px solid #f4f4f4;
+  border-top: 2px solid #f4f4f4;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+  max-width: 1400px;
+}
+
+.topofpage {
+  background-color: #908e8a;
+  padding-bottom: 0%;
+  display: block;
+  }
+
+.homebutton {
+color: white;
+text-decoration: none;
+}
+
+.homebutton:hover {
+  text-decoration: underline;
+}
+
+h1 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+font-size: 28px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 700; 
+color: #fff;
+line-height: 24px;
+margin-top: 0px;
+margin-bottom: 2px;
+padding: 5px;
+background-color: navy;
+}
+
+.body-head{
+  font-size: 22px;
+}
+
+h3 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+font-size: 20px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 600; 
+line-height: 15.4px;
+text-align:center; } 
+
+p { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+font-size: 18px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 400; 
+line-height: 20px;
+text-align:center; }
+
+blockquote { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+font-size: 21px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 400; 
+line-height: 30px; }
+
+pre { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+font-size: 13px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 400; 
+line-height: 18.5714px; }
+  
+.linkb{
+font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+font-size: 18px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 400; 
+line-height: 22px;
+color:black;
+text-decoration: none;
+background-color: #c4c2be;
+border-color:#908e8a;
+margin-right: 3px;
+padding-left: 5px;
+padding-right: 5px;
+border-left: 2px solid #f4f4f4;
+border-top: 2px solid #f4f4f4;
+border-right: 2px solid #404040;
+border-bottom: 2px solid #404040;
+}
+
+.linkb:hover {
+  text-decoration: underline;
+}
+
+.buttonrow {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding: 3px;
+    border-left: 2px solid #404040;
+    border-top: 2px solid #404040;
+    border-right: 2px solid #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+main {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 2px solid #404040;
+    border-top: 2px solid #404040;
+    border-right: 2px solid #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
+    background: #fff;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.email {
+    color: #405ab0;
+}
+
+.contact {
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-top: 10px;
+    border-left: 2px solid #404040;
+    border-top: 2px solid #404040;
+    border-right: 2px solid #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.bottom-text{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.bottom-link{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  text-align:center;
+  font-size: 12px;
+  margin: 2px;
+  width:fit-content;
+  color:black;
+  text-decoration: none;
+}
+
+.bottom-link:hover{
+  text-decoration: underline;
+}
