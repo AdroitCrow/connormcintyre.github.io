@@ -85,6 +85,11 @@ font-weight: 600;
 line-height: 15.4px;
 text-align:center; } 
 
+.bodyheader {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 p { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
 font-size: 18px; 
 font-style: normal; 
