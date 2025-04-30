@@ -6,7 +6,7 @@ html {
   display: grid;
   row-gap: 25px;
   grid-template-rows: minmax(15px, 50px) minmax(1fr, 1fr) minmax(15px, 50px);
-  grid-template-columns:minmax(15px, 1fr) minmax(400px, 800px) minmax(15px, 1fr);
+  grid-template-columns:minmax(15px, 1fr) minmax(400px, 700px) minmax(15px, 1fr);
 }
 
 .gridbox1 {
